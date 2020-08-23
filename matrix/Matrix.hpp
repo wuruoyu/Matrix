@@ -278,7 +278,10 @@ public:
 
     inline Matrix<Type, M, N> operator/(Type scalar) const
     {
-        std::cout <<  "scalar: " << scalar << std::endl;
+        //std::cout <<  "scalar: " << scalar << std::endl;
+        if (scalar < std::numeric_limits<float>::epsilon()) {
+            std::cout <<  "scalar: " << scalar << std::endl;
+        }
         return (*this)*(1/scalar);
     }
 
