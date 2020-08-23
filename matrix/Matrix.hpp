@@ -10,9 +10,9 @@
 
 #include <cstdio>
 #include <cstring>
+#include <iostream>
 
 #if defined(SUPPORT_STDIOSTREAM)
-#include <iostream>
 #include <iomanip>
 #endif // defined(SUPPORT_STDIOSTREAM)
 
