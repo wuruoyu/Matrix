@@ -17,6 +17,7 @@
 #endif // defined(SUPPORT_STDIOSTREAM)
 
 #include "math.hpp"
+#include <limits>
 
 // There is a bug in GCC 4.8, which causes the compiler to segfault due to array {} constructors.
 // Do for-loop constructors just for GCC 4.8
